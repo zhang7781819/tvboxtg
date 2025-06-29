@@ -4,21 +4,28 @@
     "sites": [
         {
             "key": "豆豆",
-            "name": "🌈豆瓣┃请测试完删除处理 做了个防走丢链接：https://link3.cc/lovemm",
+            "name": "🌈豆瓣",
+            "type": 3,
+            "api": "csp_Douban",
+            "searchable": 0
+        },
+        {
+            "key": "警示",
+            "name": "⚠️请测试完删除处理发布链接：https://link3.cc/lovemm",
             "type": 3,
             "api": "csp_Douban",
             "searchable": 0
         },
         {
             "key": "config",
-            "name": "⚙云盘┃配置中心 请升级最新软件推荐OK影视 峰蜜影视否则部分源无法使用",
+            "name": "⚙网盘配置",
             "type": 3,
             "api": "csp_Config",
             "searchable": 0
         },
         {
             "key": "csp_Netfixtv",
-            "name": "💌至臻┃4K弹幕",
+            "name": "💌至臻❁网盘",
             "type": 3,
             "changeable": "0",
             "quickSearch": 1,
@@ -45,7 +52,7 @@
         },
         {
             "key": "csp_Netfixtv2",
-            "name": "✈️二小┃4K弹幕",
+            "name": "✈️二小❁网盘",
             "type": 3,
             "changeable": "0",
             "quickSearch": 1,
@@ -71,7 +78,7 @@
         },
         {
             "key": "csp_Wogg",
-            "name": "🧸玩偶┃4K弹幕",
+            "name": "🧸玩偶❁网盘",
             "type": 3,
             "api": "csp_Wogg",
             "changeable": "0",
@@ -81,7 +88,7 @@
         },
         {
             "key": "csp_Duopan",
-            "name": "🖍蜡笔┃4K弹幕",
+            "name": "🖍蜡笔❁网盘",
             "type": 3,
             "api": "csp_Duopan",
             "filterable": 1,
@@ -103,7 +110,7 @@
         },
         {
             "key": "csp_Bili",
-            "name": "💯哔哩┃哔哩",
+            "name": "💯哔哩哔哩",
             "type": 3,
             "api": "csp_Bili",
             "searchable": 1,
@@ -118,7 +125,7 @@
         },
         {
             "key": "娱乐",
-            "name": "🎮游戏┃娱乐",
+            "name": "🎮游戏娱乐",
             "type": 3,
             "api": "./api/LIVES.py",
             "style": {
@@ -129,7 +136,7 @@
         },
         {
             "key": "88看球",
-            "name": "🏀看球┃直播",
+            "name": "🏀看球直播",
             "type": 3,
             "api": "csp_Kanqiu",
             "searchable": 0,
@@ -140,7 +147,7 @@
         },
         {
             "key": "天天",
-            "name": "🦢天天┃1080P",
+            "name": "💯天天",
             "type": 3,
             "quickSearch": 1,
             "api": "csp_AppRJ",
@@ -148,7 +155,7 @@
         },
         {
             "key": "csp_nongmin",
-            "name": "👨农民┃1080P",
+            "name": "💯农民",
             "type": 3,
             "api": "csp_Wwys",
             "searchable": 1,
@@ -158,7 +165,7 @@
         },
         {
             "key": "热热",
-            "name": "🔥热热┃1080P",
+            "name": "🔥热热",
             "type": 3,
             "quickSearch": 1,
             "api": "csp_AppRJ2",
@@ -166,7 +173,7 @@
         },
         {
             "key": "QD4K",
-            "name": "🐷猪猪┃单线4K",
+            "name": "🐷猪猪",
             "type": 3,
             "api": "csp_AppYsV2",
             "playerType": 2,
@@ -174,14 +181,14 @@
         },
         {
             "key": "海豚",
-            "name": "🐬海豚┃1080P",
+            "name": "💯海豚",
             "type": 3,
             "api": "csp_AppGet",
             "ext": "sHR2rlsfjI4L3t4RXQMknx77uAkBngyVCOo9nRhjtYEYVZhfCVy1trqBss1N9z/rDj66qnYWTA57CvnxJsOMbb1R0y0vBLYBpNMTyfbz36dsqgawYeyyXpTwdiQYs9rb4CFK1aW6bX+LcZiFVV4uzNbizESdy9tdeYkjDnNiCbfRD1K5N84R+TKB+U4Im7pOR8gnvFFwwx6KSDahektkXrxVKpbBw/neJaeyX3K+BkxPEzxo40Ecg3vBNUzl7RZs"
         },
         {
             "key": "巧技",
-            "name": "🚗聚搜┃搜索4K",
+            "name": "🚗聚搜",
             "type": 3,
             "api": "csp_qiao2",
             "playerType": 2,
@@ -190,7 +197,7 @@
         },
         {
             "key": "追忆",
-            "name": "💭追忆┃单线4K",
+            "name": "💭追忆",
             "type": 3,
             "api": "csp_Shark",
             "playerType": 2,
@@ -199,7 +206,7 @@
         },
         {
             "key": "huomaoys",
-            "name": "🐱火猫┃1080P",
+            "name": "💯火猫",
             "type": 3,
             "api": "csp_Muou",
             "jar": "./jars/巧技.jar",
@@ -208,7 +215,7 @@
         },
         {
             "key": "公公",
-            "name": "🏠公共┃1080P",
+            "name": "🏠公共",
             "type": 3,
             "api": "csp_Muou",
             "jar": "./jars/巧技.jar",
@@ -217,23 +224,15 @@
         },
         {
             "key": "仓鼠",
-            "name": "🐀仓鼠┃1080P",
+            "name": "🐀仓鼠",
             "type": 3,
             "quickSearch": 1,
             "api": "csp_AppGet2",
             "ext": "sHR2rlsfjI4L3t4RXQMkn85YdqME5ZFXdHXyEUNrexXmXuKOZHlPhQJvT6ZKEMODJQuGTLg+gpKS+XoOxUH8DdjcutGqV/lfrY9l/Ww/J/LYA0AH34KTXsOeg1p5p+KSYaG5at+IT/dqPugeQjLLpkECHqWJpIs4B2evdM7dDIOBuPmMrT5lbU1yNZHMNkr8tConVxhS1qlq57WIByuNTQ=="
         },
         {
-            "key": "水滴",
-            "name": "💧水滴┃1080P",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppGet2",
-            "ext": "sHR2rlsfjI4L3t4RXQMkn9964m8oyAP5Q1pq67Vyh7V8ESTgG/jVLrcHt3eKCMbyNGbDyZFu9n7Zd6zMxZJXTkhGtT9DNgJA5YOi9roHwbrmlgGw3de3X42kvYAYCcSnIqa9zR24cDQyq4GwTX7H3QnCkd4xZNrHiLxgPc6nD8L96MLxkLnsYlMQbDTPCOQW"
-        },
-        {
             "key": "咖啡",
-            "name": "☕️咖啡┃1080P",
+            "name": "☕咖啡",
             "type": 3,
             "quickSearch": 1,
             "api": "csp_AppGet2",
@@ -241,13 +240,13 @@
         },
         {
             "key": "牛牛",
-            "name": "🐂牛牛┃单线4K",
+            "name": "💯牛牛",
             "type": 3,
             "api": "./api/mioaying.py"
         },
         {
             "key": "光速",
-            "name": "☁️云端┃1080P",
+            "name": "☁️云端",
             "type": 3,
             "quickSearch": 1,
             "api": "csp_AppGet",
@@ -255,7 +254,7 @@
         },
         {
             "key": "咕咕",
-            "name": "🛹番剧┃1080P",
+            "name": "🛹番剧",
             "type": 3,
             "quickSearch": 1,
             "api": "csp_AppGet",
@@ -263,36 +262,29 @@
         },
         {
             "key": "人人",
-            "name": "⛄️人人┃1080P",
+            "name": "⛄️人人",
             "type": 3,
             "api": "csp_AppGet",
             "ext": "sHR2rlsfjI4L3t4RXQMknw+zXdsvYSFPrylVBk8Otj7BtrOcImUIxu7uCmi/oCEVSH+1Tuw/tXHzW47SGQsj8bRydPRgWesjHAxv9eu8eO9hOGeUeBKsucMHODs09HXY4kiPp3p1vemBghpvJFm9mx/FFTQYaEQ33Bpqwk73VkDa2zWgoB0CNuBseJhbj2hRKqOiT08iymzh4sSfhjJ5tbS5yTDxPIJAjwMijWuyOJB++d859vxajKD2Jg5qw0lv"
         },
         {
             "key": "电影",
-            "name": "🎬电影┃1080P",
+            "name": "🎬电影",
             "type": 3,
             "quickSearch": 1,
             "api": "csp_AppGet",
-            "ext": "0YM2rlqPCLd5eMAslwMf/mBbJX8M/CJVJCQyX2zM7tGdJikFHnx0KfXl4Mi9ORXxU3BxW+JS6MfS0whs911q3EwpaHe1R3A52b2fgxNOgvG5WXvTuLPxtCV9bQCcdRk/XVIoWdYLfkopEVDcAB5LPdzjO7/5FuJbIsGxUWtLsNdGr0PMMzIxq80pHqFeiqAk1uiMRyrtr+YjnEpwFqNZxDCdrdw7WXIAnI0cXjOQOV5WmFUb/3kvXMnEetzMn9tC"
+            "ext": "sHR2rlsfjI4L3t4RXQMknwLb+pplEIC+wdpO7p1FXlVxu/4/lgFTBTqK2PELmPAwfVSnMzsviWAL5eVFeiQ0JSGBExirA/KcXHk4dMKuYsempv7Rf+ybRNg2nVTlfYeOPdPjSLhUQ+6w4z9Rc/oR3krCOo37zalPV36PNBD9rWDQVeaVRQTovbLpuTLS0Aspeatl+bvo/hCXG6m7QW/yww=="
         },
         {
             "key": "csp_AppXY",
-            "name": "🐸上头┃短剧",
+            "name": "🐸短剧",
             "type": 3,
             "quickSearch": 1,
             "api": "csp_AppXY"
         },
         {
-            "key": "csp_SAOHUO",
-            "name": "🔥火火┃1080P",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_SaoHuo"
-        },
-        {
             "key": "csp_baibai",
-            "name": "🦵白白┃1080P",
+            "name": "💯白白",
             "type": 3,
             "quickSearch": 1,
             "api": "csp_SuBaiBai",
@@ -300,35 +292,35 @@
         },
         {
             "key": "csp_LiteApple",
-            "name": "🍎苹果┃1080P",
+            "name": "🍎苹果",
             "type": 3,
             "quickSearch": 1,
             "api": "csp_LiteApple"
         },
         {
             "key": "csp_Gz360",
-            "name": "🍉瓜子┃1080P",
+            "name": "🍉瓜子",
             "type": 3,
             "quickSearch": 1,
             "api": "csp_Gz360"
         },
         {
             "key": "步步",
-            "name": "👟步步┃1080P",
+            "name": "👟步步",
             "type": 3,
             "api": "./api/drpy2.min.js",
             "ext": "./js/ceshi.js"
         },
         {
             "key": "csp_Jpys",
-            "name": "🥇金牌┃1080P",
+            "name": "🥇金牌",
             "type": 3,
             "quickSearch": 1,
             "api": "csp_Jpys"
         },
         {
             "key": "测试",
-            "name": "🐓剧霸┃1080P",
+            "name": "🐓剧霸",
             "type": 3,
             "quickSearch": 0,
             "api": "./api/jubaba.py",
@@ -336,7 +328,7 @@
         },
         {
             "key": "csp_MiSou",
-            "name": "🔍米搜┃盘聚",
+            "name": "🔍米搜",
             "type": 3,
             "quickSearch": 1,
             "changeable": "0",
@@ -344,7 +336,7 @@
         },
         {
             "key": "听书",
-            "name": "📚听书┃BOOK",
+            "name": "📚听书",
             "type": 3,
             "api": "csp_TingBook",
             "searchable": 1,
@@ -352,7 +344,7 @@
         },
         {
             "key": "Aid",
-            "name": "🚑有来┃急救",
+            "name": "🚑急救",
             "type": 3,
             "api": "csp_FirstAid",
             "searchable": 0,
@@ -363,7 +355,7 @@
         },
         {
             "key": "push_agent",
-            "name": "🛴推送┃播放",
+            "name": "🛴推送",
             "type": 3,
             "api": "csp_Push",
             "searchable": 0,
